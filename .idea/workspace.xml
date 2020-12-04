@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9eddeb-2eaf-4dd7-871e-ed4b71574f3e" name="Default Changelist" comment="" />
+    <list default="true" id="3b9eddeb-2eaf-4dd7-871e-ed4b71574f3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatFrame.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChatFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+            <state relative-caret-position="430">
+              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1607095624985" expanded="true" signature="643:648" ph="..." />
+                <marker date="1607104187140" expanded="true" signature="643:648" ph="..." />
               </folding>
             </state>
           </provider>
@@ -58,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -73,6 +78,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -94,7 +100,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607095645103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607095677162" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,11 +198,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+        <state relative-caret-position="430">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1607095624985" expanded="true" signature="643:648" ph="..." />
+            <marker date="1607104187140" expanded="true" signature="643:648" ph="..." />
           </folding>
         </state>
       </provider>

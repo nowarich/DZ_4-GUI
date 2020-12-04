@@ -37,6 +37,7 @@ public class ChatFrame extends JFrame {
 
 
 //        JPanel left = new JPanel();
+        // Задание 3 to be continued...
 
         setVisible(true);
     }

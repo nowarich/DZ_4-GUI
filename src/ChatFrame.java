@@ -1,11 +1,10 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class ChatFrame extends JFrame {
-
     public ChatFrame() {
-
         setTitle("Chat");
         setBounds(100, 100, 400, 500);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -22,7 +21,7 @@ public class ChatFrame extends JFrame {
 
 
 
-        JPanel bottom = new JPanel();  // инициализация верхней JPanel-и
+        JPanel bottom = new JPanel();  // инициализация нижней JPanel-и
         add(bottom, BorderLayout.SOUTH);
         bottom.setLayout(new BorderLayout()); // установка Layout для низа
 
@@ -36,9 +35,27 @@ public class ChatFrame extends JFrame {
         input.addActionListener(InputListener);
 
 
-//        JPanel left = new JPanel();
-        // Задание 3 to be continued...
+        JPanel topmost = new JPanel();
+        add(topmost, BorderLayout.NORTH);
+        topmost.setBorder(new LineBorder(Color.GRAY, 1, true)); //
+        topmost.setLayout(new BorderLayout());
 
+        JTextField test = new JTextField();
+        topmost.add(test, BorderLayout.EAST);
+
+        JMenuBar menuBar = new JMenuBar();
+        JMenu menu = new JMenu("File");
+            JMenuItem exit = new JMenuItem(new ExitAction());
+            menu.add(exit);
+        JMenu about = new JMenu("About");
+        menuBar.add(menu);   //.add(about);
+        menuBar.add(about);   //.add(about);
+        JMenuItem aboutPop = new JMenuItem("info: Chat v1.0 /Домашнее задание по уроку №4 GUI");
+        about.add(aboutPop);
+        menuBar.setSelected(menu);
+        topmost.add(menuBar, BorderLayout.EAST);
+        // Задание 3 to be continued...
+        setJMenuBar(menuBar);
         setVisible(true);
     }
 

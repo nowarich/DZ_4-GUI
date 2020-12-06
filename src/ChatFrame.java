@@ -50,11 +50,11 @@ public class ChatFrame extends JFrame {
         JMenu about = new JMenu("About");
         menuBar.add(menu);   //.add(about);
         menuBar.add(about);   //.add(about);
-        JMenuItem aboutPop = new JMenuItem("info: Chat v1.0 /Домашнее задание по уроку №4 GUI");
+        JMenuItem aboutPop = new JMenuItem("info: Chat v1.0 /Домашнее задание по уроку №4 GUI"); // 
         about.add(aboutPop);
         menuBar.setSelected(menu);
         topmost.add(menuBar, BorderLayout.EAST);
-        // Задание 3 to be continued...
+
         setJMenuBar(menuBar);
         setVisible(true);
     }

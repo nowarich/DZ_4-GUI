@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9eddeb-2eaf-4dd7-871e-ed4b71574f3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExitAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DZ_4-GUI/ChatFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DZ_4-GUI/ChatFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChatFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+            <state relative-caret-position="390">
+              <caret line="52" column="100" selection-start-line="52" selection-start-column="100" selection-end-line="52" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1607272640104" expanded="true" signature="679:684" ph="..." />
+                <marker date="1607274649715" expanded="true" signature="679:684" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,7 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607273253606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607273289302" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,11 +260,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+        <state relative-caret-position="390">
+          <caret line="52" column="100" selection-start-line="52" selection-start-column="100" selection-end-line="52" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1607272640104" expanded="true" signature="679:684" ph="..." />
+            <marker date="1607274649715" expanded="true" signature="679:684" ph="..." />
           </folding>
         </state>
       </provider>
